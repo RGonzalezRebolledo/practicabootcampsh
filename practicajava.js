@@ -78,13 +78,8 @@ for (let index = 0; index < array.length; index++) {
 
 var cadena = 'hola bebe';
 
-var arraycadena = cadena.split ('');
-console.log (arraycadena);
+var arraycadena = cadena.split ('').reverse().join('');
 
-arraycadena.reverse();
-console.log (arraycadena);
-
-arraycadena = arraycadena.join('')
 console.log (arraycadena);
 
 var stringnuevo = '';
