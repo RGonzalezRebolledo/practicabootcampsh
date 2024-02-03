@@ -21,7 +21,7 @@ arreglo.forEach(num => {
 });
 
 
-return suma;
+return suma; 
 
 }
 
