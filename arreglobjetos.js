@@ -6,7 +6,6 @@ console.log (array);
 
 function agregopropiedad (array,propiedad){
 
-
     for (let amigo of array){
 if (!amigo[propiedad]) amigo[propiedad] = null
 }
