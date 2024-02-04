@@ -100,3 +100,12 @@ function invertirCadena(cad) {
 }
 // invertirCadena("hola");
 console.log (invertirCadena("hola"));
+
+
+var suma = 0;
+
+suma = '10' + 3 - 2
+
+console.log (suma)
+
+

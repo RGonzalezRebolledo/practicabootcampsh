@@ -3,6 +3,7 @@
 function palindromo (cadena){
 
 cadena = cadena.replace(/ /g, '').toLowerCase();
+console.log (cadena)
 
 var j = cadena.length - 1;
 
@@ -10,11 +11,11 @@ for (let i = 0; i < cadena.length; i++) {
 
     if (cadena[j] !== cadena[i] ){
 
-        return false
+        return 'No se escribe igual de ambos lados'
     }
       j-- 
 }
-return true
+return 'Se escribe igual de ambos lados'
 
 }
 

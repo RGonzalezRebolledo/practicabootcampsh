@@ -9,5 +9,5 @@ for (let i = 0; i < arreglo.length; i++) {
 return newarreglo;
 }
 
-mismacantidadcaracter (['hola','mama','sol','sombra'],4);
-console.log (mismacantidadcaracter (['hola','mama','sol','sombra'],4));
+mismacantidadcaracter (['hola','mama','sol','sombra'],3);
+console.log (mismacantidadcaracter (['hola','mama','sol','sombra'],3));
