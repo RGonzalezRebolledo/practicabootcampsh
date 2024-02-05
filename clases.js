@@ -2,7 +2,7 @@
 
 class Player{
 
-    // defino contructor del objeto
+    // defino contructor del objeto, es una funcion
     constructor(altura,colorojo){
       this._altura = altura;
       this._colorojo = colorojo;  
@@ -35,7 +35,7 @@ console.log (Player1.saludar());
 console.log (Player1.alto) 
 
 // cambio el valor de un atributo con set
-Player1.alto = 2.10;
+Player1.alto = 2.1;
 
 console.log (Player1.alto) 
 
